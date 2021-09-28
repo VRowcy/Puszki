@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</ProjectGuid>
+    <ProjectGuid>{7D273921-2937-DE42-AFD2-BDD247B51C1F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,19 +60,19 @@
      <Compile Include="Assets\Scripts\StructureScript.cs" />
      <Compile Include="Assets\Scripts\VRInputModule.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/admin/Desktop/VR test/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/admin/Documents/GitHub/Puszki/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/admin/Desktop/VR test/New Unity Project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/admin/Documents/GitHub/Puszki/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/admin/Desktop/VR test/New Unity Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/admin/Documents/GitHub/Puszki/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/admin/Desktop/VR test/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/admin/Documents/GitHub/Puszki/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>C:/Users/admin/Desktop/VR test/New Unity Project/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>C:/Users/admin/Documents/GitHub/Puszki/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.27f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -276,10 +276,10 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.27f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Valve.Newtonsoft.Json">
- <HintPath>C:/Users/admin/Desktop/VR test/New Unity Project/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/admin/Documents/GitHub/Puszki/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/admin/Desktop/VR test/New Unity Project/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/admin/Documents/GitHub/Puszki/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.27f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -629,15 +629,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="SteamVR_Actions.csproj">
-      <Project>{5F6323E4-C09F-B4F7-CC5F-5F26F2970946}</Project>      <Name>SteamVR_Actions</Name>    </ProjectReference>
+      <Project>{3A523048-727A-30FA-E668-1E535AFF4805}</Project>      <Name>SteamVR_Actions</Name>    </ProjectReference>
     <ProjectReference Include="SteamVR_Input_Editor.csproj">
-      <Project>{E52DC297-7C58-B9A1-13EA-8D2614F114A1}</Project>      <Name>SteamVR_Input_Editor</Name>    </ProjectReference>
+      <Project>{172E8D8F-003F-A175-2523-6709A8D9EA0E}</Project>      <Name>SteamVR_Input_Editor</Name>    </ProjectReference>
     <ProjectReference Include="SteamVR_Editor.csproj">
-      <Project>{7859643A-10E1-AD38-3787-5D0A3C8DF1E7}</Project>      <Name>SteamVR_Editor</Name>    </ProjectReference>
+      <Project>{725B600B-B641-1D93-7CB9-BCCC3E7F6D9D}</Project>      <Name>SteamVR_Editor</Name>    </ProjectReference>
     <ProjectReference Include="SteamVR.csproj">
-      <Project>{16BECB90-F5AB-D4BA-207E-ADE1A9B07D23}</Project>      <Name>SteamVR</Name>    </ProjectReference>
+      <Project>{98BC7EC5-F7D2-9AEB-0F77-6C761C2D5D68}</Project>      <Name>SteamVR</Name>    </ProjectReference>
     <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
-      <Project>{EB5F3BED-D6C8-ABE5-293B-6A967F8762B8}</Project>      <Name>SteamVR_Windows_EditorHelper</Name>    </ProjectReference>
+      <Project>{4C2559E7-F7E7-8E8F-D456-D86EE661AD8A}</Project>      <Name>SteamVR_Windows_EditorHelper</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
